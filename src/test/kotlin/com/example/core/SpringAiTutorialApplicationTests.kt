@@ -1,13 +1,11 @@
-package com.example.spring_ai_tutorial
+package com.example.core
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
 class SpringAiTutorialApplicationTests {
-
-	@Test
-	fun contextLoads() {
-	}
-
+    @Test
+    fun contextLoads() {
+    }
 }

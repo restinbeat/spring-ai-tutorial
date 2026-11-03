@@ -1,4 +1,4 @@
-package com.example.spring_ai_tutorial.config
+package com.example.core.config
 
 import io.github.oshai.kotlinlogging.KotlinLogging
 import org.springframework.ai.openai.api.OpenAiApi
@@ -22,7 +22,8 @@ class OpenAiConfig {
     @Bean
     fun openAiApi(): OpenAiApi {
         logger.debug { "OpenAI API 클라이언트 초기화" }
-        return OpenAiApi.builder()
+        return OpenAiApi
+            .builder()
             .apiKey(apiKey)
             .build()
     }

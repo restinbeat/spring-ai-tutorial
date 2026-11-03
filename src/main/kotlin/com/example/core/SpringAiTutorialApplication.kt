@@ -1,4 +1,4 @@
-package com.example.spring_ai_tutorial
+package com.example.core
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class SpringAiTutorialApplication
 
 fun main(args: Array<String>) {
-	runApplication<SpringAiTutorialApplication>(*args)
+    runApplication<SpringAiTutorialApplication>(*args)
 }
